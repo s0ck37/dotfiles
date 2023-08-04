@@ -1,0 +1,72 @@
+# Colors (Base16 Default Dark)
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0x44dd44'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x181818'
+    cursor: '0xd8d8d8'
+
+  # Normal colors
+  normal:
+    black:   '0x181818'
+    red:     '0xab4642'
+    green:   '0xa1b56c'
+    yellow:  '0xf7ca88'
+    blue:    '0x7cafc2'
+    magenta: '0xba8baf'
+    cyan:    '0x86c1b9'
+    white:   '0xd8d8d8'
+
+  # Bright colors
+  bright:
+    black:   '0x585858'
+    red:     '0xab4642'
+    green:   '0xa1b56c'
+    yellow:  '0xf7ca88'
+    blue:    '0x7cafc2'
+    magenta: '0xba8baf'
+    cyan:    '0x86c1b9'
+    white:   '0xf8f8f8'
+   
+window:
+  padding:
+    x: 7
+    y: 7
+  opacity: 0.90
+
+# Font configuration (changes require restart)
+font:
+  # Normal (roman) font face
+  normal:
+    family: Hack
+    style: Regular
+
+  # Bold font face
+  bold:
+    family: Hack
+    style: Bold
+
+  # Italic font face
+  italic:
+    family: Hack
+    style: Italic
+
+  # Bold italic font face
+  bold_italic:
+    family: Hack
+    style: Bold Italic
+
+  # Point size
+  size: 9.0
+
+cursor:
+  style:
+    shape: Beam
+    blinking: Always
+
+
+# Colors (Base16 Default Dark)
